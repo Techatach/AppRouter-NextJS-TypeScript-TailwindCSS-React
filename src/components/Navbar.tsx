@@ -46,7 +46,8 @@ export default function Navbar() {
           </ul>
         </div>
         <Link
-          href="/products"
+          // href="/products"
+          href="/"
           className="btn btn-ghost text-xl hover:text-green-600"
         >
           หลักสูตรรัฐประศาสนศาสตร์
@@ -55,7 +56,7 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/products">หน้าหลัก</Link>
+            <Link href="/">หน้าหลัก</Link>
           </li>
           <li>
             <details>
