@@ -49,7 +49,7 @@ const Homepage = () => {
                   </div>
 
                   <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
-                    Arkay
+                  อ.ดร.เตชทัช คลายโศกก์
                   </div>
                   <div className=" italic text-gray-500">
                     Executive Producer

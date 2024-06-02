@@ -1,4 +1,5 @@
 import React from "react";
+import { BiLogoFacebook } from "react-icons/bi";
 
 const Contact = () => {
   return (

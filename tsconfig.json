@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/prisma/schema.prisma", "src/components/ProductList.tsx", "src/app/products/page.tsx"],
   "exclude": ["node_modules"]
 }
