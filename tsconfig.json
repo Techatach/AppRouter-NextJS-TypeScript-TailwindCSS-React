@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/prisma/schema.prisma", "src/components/ProductList.tsx", "src/app/products/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/prisma/schema.prisma", "src/components/ProductList.tsx", "src/app/products/page.tsx", "src/components/CreatePost.js", "src/lib/mongodb.js", "src/lib/prismadb.js", "src/models/post.js", "src/components/Product.js", "src/app/(auth)/api/[...nextauth]/route.js", "src/app/api/posts/route.js"],
   "exclude": ["node_modules"]
 }

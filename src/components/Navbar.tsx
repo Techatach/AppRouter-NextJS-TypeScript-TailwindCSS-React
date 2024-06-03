@@ -129,7 +129,7 @@ export default function Navbar() {
               <summary>การประเมินนโยบายสาธารณะ</summary>
               <ul className="p-2">
                 <li>
-                  <Link href="#">การประเมินแผนแม่บท 1</Link>
+                  <a href="/productData">การประเมินแผนแม่บท</a>
                 </li>
                 <li>
                   <a>การประเมินดัชนีความสุข</a>
