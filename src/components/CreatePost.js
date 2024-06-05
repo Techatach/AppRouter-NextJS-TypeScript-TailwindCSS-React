@@ -44,7 +44,7 @@ export default function CreatePost() {
       <hr className="my-3" />
       <Link
         href="/productData"
-        className="bg-gray-500 inline-block text-white border py-2 px-3 rounded my-2"
+        className="bg-green-500 inline-block text-white border py-2 px-3 rounded my-2"
       >
         Go Back
       </Link>
