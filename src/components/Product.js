@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import DeleteBtn from "@/components/DeleteBtn";
 
 export default function Product() {
   const [postData, setPostData] = useState([]);
@@ -43,7 +44,6 @@ export default function Product() {
           postData.map((val) => (
             <div key={val._id} className="shadow-xl my-10 p-10 rounded-xl">
               <h4>{val.title}</h4>
-              {/* <img src="img.jpg" alt="" /> */}
               <Image src={val.img} width={300} height={0} alt={val.title} />
               <p>{val.content}</p>
               <div className="mt-5">
@@ -53,12 +53,9 @@ export default function Product() {
                 >
                   Edit
                 </Link>
-                <Link
-                  className="bg-red-600 text-white border py-2 rounded-md text-lg my-2 px-3 ml-1"
-                  href="/delete"
-                >
-                  Delete
-                </Link>
+                <a href="#">
+                  <DeleteBtn id={val._id} />
+                </a>
               </div>
             </div>
           ))

@@ -4,11 +4,12 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-export default function EdtitPostPage({ params }) {
+export default function EditPost({ params }) {
   const { id } = params;
 
   const [postData, setPostData] = useState("");
 
+  //New data of post
   const [newTitle, setNewTitle] = useState("");
   const [newImg, setNewImg] = useState("");
   const [newContent, setNewContent] = useState("");
