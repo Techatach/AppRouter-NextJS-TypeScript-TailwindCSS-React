@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import DeleteBtn from "@/components/DeleteBtn";
+import EditIcon from "@mui/icons-material/Edit";
 
 export default function Product() {
   const [postData, setPostData] = useState([]);
@@ -51,9 +52,10 @@ export default function Product() {
                   className="bg-green-600 text-white border py-2 rounded-md text-lg my-2 px-3"
                   href={`/edit/${val._id}`}
                 >
-                  Edit
+                  {/* Edit */}
+                  <EditIcon />
                 </Link>
-                <a href="#">
+                <a className="cursor-pointer">
                   <DeleteBtn id={val._id} />
                 </a>
               </div>

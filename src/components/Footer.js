@@ -1,4 +1,9 @@
 import React from "react";
+import XIcon from "@mui/icons-material/X";
+import GoogleIcon from "@mui/icons-material/Google";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 export default function Footer() {
   return (
@@ -27,31 +32,35 @@ export default function Footer() {
                 className="w-9 h-10 pt-1 m-2 md:ml-2 md:mr-0 inline-block border-1 rounded-lg text-white bg-blue-500 hover:bg-white hover:text-blue-500"
                 href="#"
               >
-                <li className="fa fa-twitter"></li>
+                <XIcon />
               </a>{" "}
               <a
                 className="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-orange-500 hover:bg-white hover:text-orange-500"
                 href="#"
               >
-                <li className="fa fa-google"></li>
+                {/* <li className="fa fa-google"></li> */}
+                <GoogleIcon />
               </a>{" "}
               <a
                 className="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-red-500 hover:bg-white hover:text-red-500"
                 href="#"
               >
-                <li className="fa fa-linkedin"></li>
+                {/* <li className="fa fa-linkedin"></li> */}
+                <LinkedInIcon />
               </a>{" "}
               <a
                 className="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-purple-500 hover:bg-white hover:text-purple-500"
                 href="#"
               >
-                <li className="fa fa-telegram"></li>
+                {/* <li className="fa fa-telegram"></li> */}
+                <TelegramIcon />
               </a>{" "}
               <a
                 className="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-cyan-500 hover:bg-white hover:text-cyan-500"
                 href="#"
               >
-                <li className="fa fa-facebook"></li>
+                {/* <li className="fa fa-facebook"></li> */}
+                <FacebookIcon />
               </a>{" "}
             </div>
           </div>
