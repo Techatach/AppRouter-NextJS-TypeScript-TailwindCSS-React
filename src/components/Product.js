@@ -45,7 +45,7 @@ export default function Product() {
           postData.map((val) => (
             <div key={val._id} className="shadow-xl my-10 p-10 rounded-xl">
               <h4>{val.title}</h4>
-              <Image src={val.img} width={300} height={0} alt={val.title} />
+              <Image src={val.img} width={200} height={200} alt={val.title} />
               <p>{val.content}</p>
               <div className="mt-5">
                 <Link
